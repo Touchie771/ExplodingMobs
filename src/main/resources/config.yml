@@ -1,0 +1,6 @@
+# This is the configuration file for the ExplodingMobs plugin.
+# It contains the configuration for the plugin.
+# It is a YAML file, and it is used to configure the plugin.
+
+explosionRadius: 5
+explosiveMobName: Exploadable Mob
