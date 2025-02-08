@@ -6,7 +6,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.Objects;
 
-public final class ExplodingMobs extends JavaPlugin {
+public class ExplodingMobs extends JavaPlugin {
 
     @Override
     public void onEnable() {
@@ -14,6 +14,7 @@ public final class ExplodingMobs extends JavaPlugin {
         Objects.requireNonNull(getCommand("spawnMob")).setExecutor(new ExploadableMobSpawner(this));
         // Implement listeners.
         getServer().getPluginManager().registerEvents(new ExploadableMobListener(this), this);
+
         // Save files and resources.
         saveDefaultConfig();
     }
@@ -22,4 +23,5 @@ public final class ExplodingMobs extends JavaPlugin {
     public void onDisable() {
         // Plugin shutdown logic
     }
+
 }
