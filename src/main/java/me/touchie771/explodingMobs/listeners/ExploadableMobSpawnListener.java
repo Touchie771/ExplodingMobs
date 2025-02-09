@@ -12,11 +12,11 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.Objects;
 
-public class ExploadableMobListener implements Listener {
+public class ExploadableMobSpawnListener implements Listener {
 
     final private ExplodingMobs plugin;
 
-    public ExploadableMobListener(ExplodingMobs plugin) {
+    public ExploadableMobSpawnListener(ExplodingMobs plugin) {
         this.plugin = plugin;
     }
 

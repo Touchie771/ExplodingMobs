@@ -1,5 +1,5 @@
 name: ExplodingMobs
-version: '1.0.1'
+version: '1.0.2'
 main: me.touchie771.explodingMobs.ExplodingMobs
 api-version: '1.21'
 authors: [ Touchie771 ]
@@ -9,4 +9,9 @@ commands:
     description: Spawns an explosive mob.
     usage: /<command> <mobType>
     permission: explodingmobs.spawnMob
+    permission-message: You do not have permission to use this command.
+  configMob:
+    description: Allows you to configure the plugin via a gui interface.
+    usage: /<command>
+    permission: explodingmobs.configMob
     permission-message: You do not have permission to use this command.
