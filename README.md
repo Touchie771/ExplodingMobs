@@ -1,31 +1,49 @@
-## Overview
+# ExplodingMobs
 
-- [ExplodingMobs](https://github.com/Touchie771/ExplodingMobs) is a free, open-source minecraft plugin using the bukkit api, this means anyone can get it for free, contribute to it and change it in any way they like, if the configuration file isn't enough.
+[ExplodingMobs](https://github.com/Touchie771/ExplodingMobs) is a free, open-source plugin built for the Paper API. It makes some mobs explode. You can spawn one of those mobs using the following command:
 
-- The configuration file contains some cool options like setting the explosion radius and setting the exploadable mobs display name.
+```
+/spawnmob <MobType>
+```
 
-## Authors
+Note that when executed from the console, it will spawn the mob at a location set via the config file.
 
-- [Touchie771](https://github.com/Touchie771)
+## Configuration
 
-## Instalation
+This is the default configuration file provided. Modify it as needed:
 
-- Get one of our releases from the [releases page](https://github.com/Touchie771/ExplodingMobs/releases), we recommend getting the latest release.
+```yaml
+# This is the configuration file for the ExplodingMobs plugin.
+# It contains the configuration for the plugin.
+# It is a YAML file, and it is used to configure the plugin.
 
-- Place it into your server's plugins folder.
+# 1. For explosion customization.
 
-- Restart the server or load the plugin by using [plugmanX](https://www.spigotmc.org/resources/plugmanx.88135/).
+explosionRadius: 5 # The radius of the explosion.
+explosiveMobName: Explodable Mob # The name of the mob.
+explosionEffect: NONE # The effect of the explosion.
 
-## Contributing
+# 2. For console customization.
 
-- Fork this repository.
+consoleSpawnLocation: 0, 0, 0 # The location of where the mob should spawn if the command is executed by the console.
+```
 
-- Clone the forked repository on your local machine.
+> ⚠️ **Warning:** The explosion effect can only be one of the following:
+> - NONE
+> - FIRE
+> - SMOKE
+> - If anything else is provided, it won't work.
 
-- Make your changes.
+## In-Game Configuration
 
-- Push them to the forked repository.
+You can also edit the config file directly in-game! Use the following command to open a menu that allows you to edit the configuration in-game:
 
-- Create a pull request.
+```
+/configmob
+```
 
-- Wait to see if your pull request got accepted or declined.
+> ⚠️ **Warning:** The explosion effect can only be one of the following:
+> - NONE
+> - FIRE
+> - SMOKE
+> - If anything else is provided, it won't work.
