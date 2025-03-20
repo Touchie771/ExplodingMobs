@@ -1,8 +1,6 @@
 # 💥 ExplodingMobs 💥
 
 <div align="center">
-  
-![ExplodingMobs Banner](https://via.placeholder.com/800x200?text=ExplodingMobs+Banner)
 
 [![Version](https://img.shields.io/github/v/release/Touchie771/ExplodingMobs?include_prereleases&style=for-the-badge&logo=github&color=F05032)](https://github.com/Touchie771/ExplodingMobs/releases)
 [![Downloads](https://img.shields.io/github/downloads/Touchie771/ExplodingMobs/total?style=for-the-badge&logo=github&color=4CAF50)](https://github.com/Touchie771/ExplodingMobs/releases)
@@ -32,13 +30,6 @@
 [ExplodingMobs](https://github.com/Touchie771/ExplodingMobs) is a free, open-source plugin built for the Paper API that adds explosive capabilities to mobs in your Minecraft server! When these special mobs die, they detonate with customizable explosion effects, creating exciting and unpredictable gameplay experiences.
 
 ### 🎬 Demo
-
-<div align="center">
-  
-![ExplodingMobs Demo](https://via.placeholder.com/640x360?text=ExplodingMobs+Demo+Video)
-  
-*Explosive zombie in action! Replace with actual screenshots or GIFs of your plugin.*
-</div>
 
 ## ✨ Features
 
@@ -130,13 +121,6 @@ For server admins who prefer a graphical interface, ExplodingMobs provides an in
 ```
 /configmob
 ```
-
-<div align="center">
-  
-![Configuration Menu](https://via.placeholder.com/400x300?text=Configuration+Menu)
-  
-*Example of the in-game configuration menu*
-</div>
 
 The in-game menu provides an intuitive interface for adjusting:
 - 💣 **Explosion Radius**: Slide to adjust explosion power
